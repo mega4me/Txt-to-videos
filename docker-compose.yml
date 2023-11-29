@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      OTHER_INSTALLS: $OTHER_INSTALLS
+      REPO_URL: $REPO_URL
+      PYTHON_FILE: $PYTHON_FILE
+      OTHER_CMD: $OTHER_CMD
+      
